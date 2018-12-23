@@ -30,19 +30,35 @@ esta super collider e IDJC ahì a forma de patch conectamos el OUT de Supercolli
 
 ![1](https://github.com/Noisk8/HowtoConectRL/blob/master/SCIDE%20CONECTADO%20CON%20IDJC.png)
 
-SuperCollider output_1 pe_in_l    IDJC 
-              output_2 pe_in_r
-              
-              
-         
-  Ahora en IDJC...
-            
+las conexiones en jack ....
+
+output_1 pe_in_l  
+output_2 pe_in_r
+
+
 Para configurar el idjc al servidor 
+
 Vamos a la pestaña de Ver → Salida → Configuración 
 
-Ahí le damos en Nuevo y empezamos a generar la configuración 
+Ahora nos paramos sobre 
+![2](https://github.com/Noisk8/HowtoConectRL/blob/master/VER-SALIDA%20IDJC.png)
 
 
+Ahí le damos en Nuevo y empezamos a generar la configuración, damos click en nuevo.
 
-Continuara....
+![3](https://github.com/Noisk8/HowtoConectRL/blob/master/NUEVO%20IDJC.png)
+
+Rllenamos la configuración con la información que se ve en la imagen 
+
+![]()
+luego vamos a la pestaña de formato y configuramos el formato de salida de la transmisión
+
+![]()
+
+ahora activamos el canal y conectamos 
+
+![]()
+
+![]()
+
 
