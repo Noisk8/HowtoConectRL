@@ -27,11 +27,14 @@ Luego de esto abrimos el Internet DJ Console
 Teniendo IDJC abierto vamos a la interfaz de Qjack y abrimos la pestaña de conexiones, allí observamos que en la parte de IN y OUT 
 esta super collider e IDJC ahì a forma de patch conectamos el OUT de Supercollider con el IN de Idjc.
 
-SuperCollider output_1 -------- pe_in_l    IDJC 
-              output_2 -------- pe_in_r
+
+![1](https://github.com/Noisk8/HowtoConectRL/blob/master/SCIDE%20CONECTADO%20CON%20IDJC.png)
+
+SuperCollider output_1 pe_in_l    IDJC 
+              output_2 pe_in_r
               
               
-              IMAGEN 
+         
   Ahora en IDJC...
             
 Para configurar el idjc al servidor 
