@@ -1,28 +1,36 @@
 # HowtoConectRL
-Guía basica para conectarse al  server de RadioLibre
+Guía basica para conectarse al  server de RadioLibre por medio de IDJC(Internet Dee Jay Console). 
 
+La idea de este documento es dar una ruta para transmitir audio por radiolibre.co
 
-La idea de este documento es dar una  ruta de como transmitir audio por radiolibre.co
-
-Lo primero es instalar los requerimientos.
+Lo primero es instalar los requerimientos de software.
 
 Requerimientos 
 
 Jack / Qjackctl / IDJC
 
-sudo apt-get install idjc
+Jack es un controlador de audio para linux
+
+Qjackctl es una interfaz grafica para el server de Jack 
+
+Internet Dee Jay Console es un software para el control de sonido tipo DJ en linux 
+
+Los comandos para instalar las dependencias necesarias 
+
+sudo apt-get install jackd 
 
 sudo apt-get install idjc 
 
 sudo apt-get install qjackctl 
 
-sudo apt-get install jackd 
 
-Lo primero es activar el servidor  de jack por medio de la interfaz grafica Qjackctl,  prersionando el boton iniciar activas el servidor de jack.
+Lo primero que debemos hacer para iniciar este bproceso es activar el servidor de jack, en este caso por medio de la interfaz grafica Qjackctl, ejecutamos qjackctl en terminal y luego prersionamos el boton iniciar, así activas el servidor de jack (debes de revisar cual es tu tarjeta  de salida en la ventana de configuración por lo general es la defaulut).
 
-En este paso activas tu software en mi caso Supercollider y FoxDot 
+después de tener el server de jack activo  corres tu software.
 
-Luego de esto abrimos el Internet DJ Console 
+Luego de esto abrimos el Internet DJ Console.
+
+Puedes ejecutar en terminal idjc o buscarlo en la seccion de multimedia de ti menu
 
 Teniendo IDJC abierto vamos a la interfaz de Qjack y abrimos la pestaña de conexiones, allí observamos que en la parte de IN y OUT 
 esta super collider e IDJC ahì a forma de patch conectamos el OUT de Supercollider con el IN de Idjc.
